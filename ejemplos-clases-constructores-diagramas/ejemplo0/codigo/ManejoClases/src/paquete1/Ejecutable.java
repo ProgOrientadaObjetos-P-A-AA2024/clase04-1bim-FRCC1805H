@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package paquete1;
+import paquete1.Computadora;
 
 public class Ejecutable {
     public static void main(String[] args) {
