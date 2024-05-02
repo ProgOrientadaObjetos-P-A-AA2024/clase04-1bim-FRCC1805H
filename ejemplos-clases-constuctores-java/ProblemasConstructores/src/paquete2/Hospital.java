@@ -15,6 +15,10 @@ public class Hospital {
     private int numeroDoctores;
     private int numeroEnfermeros;
     
+    private String nombre2;
+    private String ciudad2;
+    private int numeroDoctores2;
+    private int numeroEnfermeros2;
     /*
         Crear un constructor que reciba como parámetros
         valores que serán asignados a los atributos.
@@ -28,7 +32,6 @@ public class Hospital {
             numeroEnfermeros = e;
         
     }
-    
     
     public Hospital(){
         nombre = "na";
