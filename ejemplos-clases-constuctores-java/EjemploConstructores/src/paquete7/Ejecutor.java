@@ -33,9 +33,6 @@ public class Ejecutor {
         System.out.println("\nObjeto con argumentos\n");
         System.out.printf("Número telefónico: %s\n"
                 + "Minutos mes: %.2f\nValor minuto: %.2f\n"
-                + "Valor factura: %.2f\n", fac2.obtenerNumeroTelefono(),
-                fac2.obtenerMinutosMes(),
-                fac2.obtenerValorMinuto(),
-                fac2.obtenerValorFactura());
+                + "Valor factura: %.2f\n", fac2);
     }
 }

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package paquete1;
-
+import paquete1.Hospital;
 /**
  *
  * @author reroes
@@ -15,11 +15,17 @@ public class Ejecutor {
         /*Crear un objeto y presentar los datos*/
         
         Hospital h1 = new Hospital();
-        h1.establecerNombre(n);
-        h1.establecerCiudad(n);
-        h1.establecerNumeroDoctores(0);
-        h1.establecerNumeroEnfermeros(0);
-        System.out.printf("%s\n", h1);
+        
+        
+        
+        System.out.printf("Nombre :%s\n"
+                + "Ciudad : %s\n"
+                + "Numero de Doctores : %d\n"
+                + "Numero de Enfermeros : %d\n", 
+                h1.obtenerNombre(),
+                h1.obtenerCiudad(),
+                h1.obtenerNumeroDoctores(),
+                h1.obtenerNumeroEnfermeros());
         
     }
 }
