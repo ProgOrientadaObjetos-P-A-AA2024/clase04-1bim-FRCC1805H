@@ -68,7 +68,8 @@ public class Hospital {
                 + "Ciudad : %s\n"
                 + "Numero de Doctores : %s\n"
                 + "Numero de Enfermeros : %s", obtenerNombre(),
-                obtenerCiudad(),
+                //por que su valor ya esta asignando en su constructor 
+                ciudad,
                 obtenerNumeroDoctores(),
                 obtenerNumeroEnfermeros());
         return cadena;

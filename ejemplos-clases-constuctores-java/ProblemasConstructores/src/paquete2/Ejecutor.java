@@ -37,14 +37,8 @@ public class Ejecutor {
         numeroDoctores = entrada.nextInt();
         System.out.print("Ingrese el numero de Enfermeros");
         numeroEnfermeros = entrada.nextInt();
-        System.out.print("Ingrese su nombre");
-        String nombre2 = entrada.nextLine();
-        System.out.print("Ingrese la Ciudad");
-        String ciudad2 = entrada.nextLine();
-        System.out.print("Ingrese el numero de Doctores");
-        int numeroDoctores2 = entrada.nextInt();
-        System.out.print("Ingrese el numero de Enfermeros");
-        int numeroEnfermeros2 = entrada.nextInt();
+        
+        
         
         h1.establecerNombre(nombre);
         h1.establecerCiudad(ciudad);
@@ -62,19 +56,23 @@ public class Ejecutor {
                 h1.obtenerNumeroDoctores(),
                 h1.obtenerNumeroEnfermeros());
 
-        
+          entrada.nextLine();
         Hospital h2 = new Hospital("Militar DOS", "Loja", 1000, 3000);
-        
+        System.out.print("Ingrese su nombre");
+        String nombre2 = entrada.nextLine();
+        System.out.print("Ingrese la Ciudad");
+        String ciudad2 = entrada.nextLine();
+        System.out.print("Ingrese el numero de Doctores");
+        int numeroDoctores2 = entrada.nextInt();
+        System.out.print("Ingrese el numero de Enfermeros");
+        int numeroEnfermeros2 = entrada.nextInt();
         
         
         h2.establecerNombre(nombre2);
         h2.establecerCiudad(ciudad2);
         h2.establecerNumeroDoctores(numeroDoctores2);
         h2.establecerNumeroEnfermeros(numeroEnfermeros2);
-        h2.obtenerNombre();
-        h2.obtenerCiudad();
-        h2.obtenerNumeroDoctores();
-        h2.obtenerNumeroEnfermeros();
+        
         
         System.out.printf("Nombre : %s\n"
                 + "Ciudad : %s\n"
